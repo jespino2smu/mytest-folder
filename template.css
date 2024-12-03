@@ -1,0 +1,107 @@
+body
+{
+  color: #7f7f7f;
+  font-family: Tahoma;
+
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-right: 350px;
+  margin-left: 350px;
+}
+
+kbd
+{
+  color: #957b75;
+  //font-size: 16px;
+  font-family: Tahoma;
+
+  // from thenewcode.com/1019/Code-and-Keys-in-HTML-Using-the-code-var-samp-and-kbd-elements
+
+  display: inline-block;
+  border: 1px solid #564642;
+  border-radius: 4px;
+  padding: 0.1em 0.3em;
+  margin: 0 1px;
+  //box-shadow: 0 1px 0px rgba(0, 0, 0, 1), 0 0 0 2px #2e2523 inset;
+  box-shadow:
+      0px 3px 4px #111, /* outer shadow */
+      inset 0 0 8px #564642; /* inner glow */
+  background-color: #262323;
+}
+
+h1
+{
+  color: #bfbfbf;
+}
+
+h3
+{
+  margin: 0;
+  color: #afafaf;
+  margin-left: 18px;
+  margin-bottom: -6px;
+}
+
+a:link {color: #c2a464;}
+a:hover {color: #f8de8d;}
+
+
+/* <p> in a <div> */
+div p
+{
+  margin: 0;
+  margin-left: 18px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+div
+{
+  height: 75%;
+  width: 100%;
+  padding: 10px 0;
+}
+div:nth-child(odd)
+{
+  background-color: #272727;
+}
+div:nth-child(even)
+{
+  background-color: #1f1f1f;
+}
+
+ul
+{
+  //margin: 0;
+}
+ul.dash
+{
+  list-style-type: none;
+}
+ul.dash > li
+{
+  text-indent: -14px;
+}
+ul.dash > li:before
+{
+  content: "-";
+  padding-right: 8px;
+}
+ul.bullet
+{
+  list-style-type: none;
+}
+ul.bullet > li
+{
+  text-indent: -14px;
+}
+ul.bullet > li:before
+{
+  content: "•";
+  padding-right: 8px;
+}
+li
+{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
